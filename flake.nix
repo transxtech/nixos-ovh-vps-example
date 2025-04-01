@@ -14,6 +14,11 @@
         disko.nixosModules.disko
         ./configuration.nix
       ];
+      config = {
+        environment.systemPackages = with nixpkgs; [
+          screenfetch
+        ];
+      };
     };
   };
 }
