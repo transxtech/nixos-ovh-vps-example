@@ -9,12 +9,12 @@
         partitions = {
           boot = {
             name = "boot";
-            size = "2M";
+            size = "8M";
             type = "EF02";
           };
           esp = {
             name = "ESP";
-            size = "300M";
+            size = "512M";
             type = "EF00";
             content = {
               type = "filesystem";
