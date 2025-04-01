@@ -24,7 +24,7 @@
   ];
 
   users.users.root.openssh.authorizedKeys.keys = [
-    # Enter ssh public key
+    ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICR46yVscbphm3cOKuE37/64XMSlID/DVm+UaBoUvZxG haroldzhao@Harolds-Mac-mini.local
   ];
 
   system.stateVersion = "23.11";
